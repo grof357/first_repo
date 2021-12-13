@@ -1,0 +1,40 @@
+.heder {
+    background-image: url(./slike/pozadina.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+   
+}
+.heder a {
+
+    border: 1px solid #666;
+    border-radius: 0;
+    padding: 1em;
+    width: 11em;
+}
+
+.heder a:hover {
+    background: aliceblue;
+    color: #333;
+}
+.sectionB {
+    background: #333;
+}
+
+.card {
+    border: 0;
+    background: #fff;
+}
+
+.col1 {
+    background: #2690d4;
+    color: #fff;
+}
+.col2 {
+    background: #333;
+    color: #fff;
+}
+#main-footer {
+    background: #000;
+    color: #fff;
+}
