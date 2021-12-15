@@ -171,5 +171,7 @@
     height: 97px;
 }
 .footer-padding {
-    padding: 35.2px;
+
+    padding-top: 35.2px;
+    padding-bottom: 35.2px;
 }
