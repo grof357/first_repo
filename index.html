@@ -11,12 +11,12 @@
     <title>Web Solutions</title>
 </head>
 
-<body>
+<body class="body">
     <header class="grid">
         <div class="bg-image"></div>
         <div class="content-wrap">
-            <h1 class="text-center fw-bold text-white pb-3 pt-6 fs-2">Welcome to Acme Web Solutions</h1>
-            <p class="text-center text-white fs-6 mx-6 px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            <h1 class="text-center fw-bold text-white heading1-padding">Welcome to Acme Web Solutions</h1>
+            <p class="text-center text-white mx-6 paragraph-padding">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Adipisci
                 eum error earum soluta voluptatum
                 nisi laboriosam eos saepe asperiores dolorum.</p>
@@ -28,54 +28,61 @@
         </div>
     </header>
     <main id="main">
-        <div class="sectionA">
-            <h2 class="text-center fw-bold ">Web & Application Development</h2>
-            <div class="container pt-3 pb-3">
-                <div class="row text-center">
-                    <div class="col mx-2">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde
-                            officiis magnam laborum ipsa distinctio odio, vero dolores</p>
+        <div class="sectionA d-flex justify-content-center">
+            <div id="containerA">
+                <div class="paddingWeb">
+                <h2 class="text-center fw-bold heading-pading" style="margin-top: 5px;">Web & Application Development</h2>
+                <div class="container ">
+                    <div class="row text-center" >
+                        <div class="col">
+                            <p class="no-bottom-margin-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus?
+                                Unde
+                                officiis magnam laborum ipsa distinctio odio, vero dolores</p>
+                        </div>
+                        <div class="col mx-2">
+                            <p class="no-bottom-margin-paragraph">dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis
+                                sequi
+                                animi totam, accusantium, ex eius quia, natus quo?</p>
+                        </div>
                     </div>
-                    <div class="col mx-2">
-                        <p>dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi
-                            animi totam, accusantium, ex eius quia, natus quo?</p>
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
         <div class="sectionB" id="section-b">
-            <div class="container pt-5 pb-5">
+            <div class="containerB">
+            <div class="container">
                 <div class="row">
-                    <div class="p-2 col-12 col-md-4 text-center">
+                    <div class=" col-12 col-md-4 text-center">
                         <div class="card" style="width: 100%;">
-                            <img class="card-img-top" src="./slike/laptop.jpeg" alt="Card image cap">
+                            <img class="card-img-top" src="./slike/laptop.jpeg" alt="Card image cap" style="margin-bottom: 15px;">
                             <div class="card-body">
-                                <h3 class="card-title text-center pt-4 fw-bold pb-4">Web Development</h3>
-                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                <h3 class="card-title text-center  fw-bold heading3-padding">Web Development</h3>
+                                <p class="card-text text-center paragraph-padding" style="padding-left: 10px; padding-right: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores
                                     exercitationem.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="p-2 col-12 col-md-4 text-center">
+                    <div class=" col-12 col-md-4 text-center">
                         <div class="card" style="width: 100%;">
-                            <img class="card-img-top" src="./slike/telefon.jpeg" alt="Card image cap">
+                            <img class="card-img-top" src="./slike/telefon.jpeg" alt="Card image cap" style="margin-bottom: 15px;">
                             <div class="card-body">
-                                <h3 class="card-title text-center pt-4 fw-bold pb-4">Mobile Applications</h3>
-                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                <h3 class="card-title text-center  fw-bold heading3-padding">Mobile Applications</h3>
+                                <p class="card-text text-center paragraph-padding" style="padding-left: 10px; padding-right: 10px;" st>Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores
                                     exercitationem.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="p-2 col-12 col-md-4 text-center">
+                    <div class=" col-12 col-md-4 text-center">
                         <div class="card" style="width: 100%;">
-                            <img class="card-img-top" src="./slike/laptop i tablet.jpeg" alt="Card image cap">
+                            <img class="card-img-top" src="./slike/laptop i tablet.jpeg" alt="Card image cap" style="margin-bottom: 15px;">
                             <div class="card-body">
-                                <h3 class="card-title text-center pt-4 fw-bold pb-4">Tech Marketing</h3>
-                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                                <h3 class="card-title text-center fw-bold heading3-padding">Tech Marketing</h3>
+                                <p class="card-text text-center paragraph-padding" style="padding-left: 10px; padding-right: 10px;" st>Lorem ipsum dolor sit amet consectetur adipisicing
                                     elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores
                                     exercitationem.</p>
                             </div>
@@ -85,28 +92,32 @@
 
                 </div>
             </div>
+            </div>
         </div>
         <!-- <div class="sectionC pt-5 bt-5 mx-auto" style="width: 62.5rem;"> -->
-        <div class="sectionC pt-5 bt-5">
-        <h2 class="text-center fw-bold pt-5 content-title">We handle all of your digital needs</h2>
-        <p class=" text-center pt-3 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel
-            earum error fugiat cupiditate, dolore eius! Minus, explicabo.</p>
+        <div class="sectionC">
+            <div class="kont">
+                <h2 class="text-center fw-bold content-title heading-pading">We handle all of your digital needs</h2>
+                <p class=" text-center no-bottom-margin-paragraph paragraph-padding">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
+                    rerum vel
+                    earum error fugiat cupiditate, dolore eius! Minus, explicabo.</p>
+            </div>
         </div>
-        <div class="sectionD pt-5">
+        <div class="sectionD">
             <div class=" text-center p-0">
-                <div class="d-flex">
+                <div class="d-flex ">
                     <div class=" w-50">
-                        <div class="col1 h-100">
-                            <h2 class="pt-5 bt-5 content-title ">Contact Us</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a
+                        <div class="col1">
+                            <h2 class=" no-bottom-margin-paragraph fw-bold content-title heading-pading">Contact Us</h2>
+                            <p class="no-bottom-margin-paragraph paragraph-padding">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a
                                 quod, ut et voluptas obcaecati unde fuga.</p>
-                            <p class="pb-5">contact@acmewebsolutions.test</p>
+                            <p class=" no-bottom-margin-paragraph paragraph-padding">contact@acmewebsolutions.test</p>
                         </div>
                     </div>
                     <div class="w-50">
-                        <div class="col2 h-100">
-                            <h2 class="pt-5 content-title">About Our Company</h2>
-                            <p class="pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum
+                        <div class="col2">
+                            <h2 class=" fw-bold content-title heading-pading">About Our Company</h2>
+                            <p class="no-bottom-margin-paragraph paragraph-padding">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum
                                 porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis
                                 iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
 
@@ -117,12 +128,12 @@
         </div>
     </main>
     <footer id="main-footer">
-        <div>
-            <div class="row text-center pt-5 pb-5 mx-5">
-                <div class="col" style="width: 10rem;">
+        <div class="footer">
+            <div class="row text-center ">
+                <div class="col footer-padding" style="width: 10rem;">
                     <div>Acme Web Solutions</div>
                 </div>
-                <div class="col">
+                <div class="col footer-padding">
                     <div>Project By <a class="text-decoration-none" href="https://traversymedia.com/"
                             target="_blank">Traversy Media</a></div>
                 </div>

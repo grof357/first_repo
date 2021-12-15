@@ -1,23 +1,43 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background-color: #333;
 }
 
-.content-wrap .pt-6 {
-    padding-top: 6.25rem;
+.body p, div {
+    font-size: 17.6px;
 }
+
+.body h1 {
+    font-size: 35.2px;
+}
+
+.body h2 {
+    font-size: 26.4px;
+}
+
+.body h3 {
+    font-size: 20.592px;
+}
+
+
 
 .content-wrap .mx-6 {
-    max-width: 800px;
+    /* max-width: 850px; */
     margin: auto;
+    padding: 17.6px 527px 17.6px 527px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
+
 .content-wrap .container {
     padding-bottom: 137px;
 }
+
 .grid .h1 {
     display: block;
-    font-size: 2em;
 }
+
 
 .bg-image {
     background: #333 url(./slike/pozadina.png);
@@ -28,29 +48,35 @@
     width: 100%;
     height: 450px;
     z-index: -1;
-    opacity: 0.9;
-}
-.sectionA {
-    padding-top: 20px;
-    background: #eaeaea;
-    height: 224px;
-}
-.sectionA h2 {
-    font-size: 1.5em;
-}
-.sectionA .container .row {
-    max-width: 900px;
-    margin:auto;
-    font-size: 1.1em;
+    opacity: 0.4;
 }
 
+.sectionA {
+
+    background: #eaeaea;
+    color: #333;
+}
+/* .sectionA h2 {
+    padding: 26.4px 0px;
+} */
+
+.sectionA .container .row {
+    max-width: 900px;
+    margin: auto;
+
+}
+#containerA{
+    min-height: 224px;
+}
 .grid a {
-        font-size: 1.1em;
+    font-size: 17.56px;
     border: 1px solid #666;
     background: #333;
     border-radius: 0;
-    padding: 1em 2em;
-    margin: 0.5em 0;
+    margin: 8.8px 0px;
+    padding: 17.6px 35.2px;
+    height: 63.58px;
+    width: 159.45px;
 }
 
 .grid a:hover {
@@ -60,21 +86,27 @@
 
 .sectionB {
     background: #333;
+    color: #333;
+    height: 571px;
+    padding: 35.2px 17.6px 17.6px;
 }
 
 .card {
     border: 0;
     border-radius: 0;
     background: #fff;
-    font-size: 1.1em;
-    min-height: 518px;
+    height: 499px;
+    width: 273px !important;
+    
 }
-.card h3 {
-    font-size: 1.17rem;
+.card body {
+    padding: 26.4px; 
+    
 }
-.card p {
-    font-size: 1.1em;
+.card-img-top{
+    border-radius: 0;
 }
+
 .sectionB .container {
     max-width: 880px;
 }
@@ -82,20 +114,62 @@
 .col1 {
     background: #2690d4;
     color: #fff;
+    padding: 35.2px;
+    height: 312px;
 }
 
 .col2 {
     background: #333;
     color: #fff;
+    padding: 35.2px;
+    height: 312px;
 }
-.sectionC{
+
+.sectionC {
+
+
+    height: 251px;
+    color: #333;
+    background-color: #fff;
+    padding: 35.2px;
+}
+
+.kont {
     max-width: 800px;
     margin: auto;
-    font-size: 1.1em;
-    height: 251px;
 }
 
 #main-footer {
     background: #000;
     color: #fff;
+    pad: 35.2px;
+}
+
+.heading-pading {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    margin-bottom: 0;
+}
+.heading1-padding {
+    margin-bottom: 0;
+    padding: 100px 0px 0px 0px;
+}
+.paragraph-padding {
+    padding: 17.6px 0px;
+}
+.paddingWeb {
+    padding: 0px 0px 32.5px;
+}
+.no-bottom-margin-paragraph {
+    margin-bottom: 0px;
+}
+.heading3-padding {
+    padding: 20.59px 0px;
+    margin-bottom: 0px;
+}
+.footer .row {
+    height: 97px;
+}
+.footer-padding {
+    padding: 35.2px;
 }
