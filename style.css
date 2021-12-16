@@ -23,11 +23,12 @@
 
 
 .content-wrap .mx-6 {
-    /* max-width: 850px; */
     margin: auto;
-    padding: 17.6px 527px 17.6px 527px;
+    padding-top: 17.6px;
+    padding-bottom: 17.6px;
     margin-bottom: 0px;
     margin-top: 0px;
+    max-width: 894px;
 }
 
 .content-wrap .container {
@@ -56,6 +57,7 @@
     background: #eaeaea;
     color: #333;
 }
+
 /* .sectionA h2 {
     padding: 26.4px 0px;
 } */
@@ -65,9 +67,12 @@
     margin: auto;
 
 }
-#containerA{
+
+#containerA {
     min-height: 224px;
+
 }
+
 .grid a {
     font-size: 17.56px;
     border: 1px solid #666;
@@ -97,13 +102,15 @@
     background: #fff;
     height: 499px;
     width: 273px !important;
-    
+
 }
+
 .card body {
-    padding: 26.4px; 
-    
+    padding: 26.4px;
+
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: 0;
 }
 
@@ -114,14 +121,14 @@
 .col1 {
     background: #2690d4;
     color: #fff;
-    padding: 35.2px;
+    /* padding: 35.2px; */
     height: 312px;
 }
 
 .col2 {
     background: #333;
     color: #fff;
-    padding: 35.2px;
+    /* padding: 35.2px; */
     height: 312px;
 }
 
@@ -135,7 +142,7 @@
 }
 
 .kont {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
 }
 
@@ -150,28 +157,81 @@
     padding-bottom: 26px;
     margin-bottom: 0;
 }
+
 .heading1-padding {
     margin-bottom: 0;
     padding: 100px 0px 0px 0px;
 }
+
 .paragraph-padding {
     padding: 17.6px 0px;
 }
+
 .paddingWeb {
     padding: 0px 0px 32.5px;
 }
+
 .no-bottom-margin-paragraph {
     margin-bottom: 0px;
 }
+
 .heading3-padding {
     padding: 20.59px 0px;
     margin-bottom: 0px;
 }
+
 .footer .row {
     height: 97px;
 }
-.footer-padding {
+
+.padding {
 
     padding-top: 35.2px;
     padding-bottom: 35.2px;
+}
+
+.padding1 {
+    padding-right: 35.2px;
+    padding-left: 35.2px;
+}
+
+@media (max-width: 870px) {
+    .sectionB {
+        height: auto;
+    }
+
+    .card {
+        height: auto;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .websolution {
+        margin-left: 0px !important;
+       padding-bottom: 0px;
+    }
+
+    .project {
+        margin-right: 0px !important;
+        padding-top: 0px !important;
+    }
+    
+
+}
+@media (max-width: 585px) {
+    .bg-image{
+        height: 550px;
+    }
+
+    @media (max-width: 666px) {
+        .col1 {
+            height: auto;
+        }
+        .col2 {
+            height: auto;
+        }
+        .sectionC {
+            height: auto;
+        }
+    }
 }
